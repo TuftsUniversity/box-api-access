@@ -9,12 +9,19 @@
 ########		Connect to Box through a Box developers app and write to a target
 ########        directory on behalf of the previsouly created Box dev app user
 ########
+########
+########    Edit script:
+########
+########    change the parameters in the commented sections below
+########        - add user ID for non-human Box API user created with connectToBox-GetLogin.py
+########        - add target folder ID from Box for folder you're writing to
+########
 ########    Input:
 ########        - 1st argument to command:  file you want to send to Box, with relative path
 ########            + e.g. "python sendLogs.py input/input.out"
 ########        - 2nd argument to command:  path of config file containing public and private key
 ########            + e.g. "python connectToBox-GetLogin.py config/config.json"
-########        - user ID
+########
 ########
 ########	Requirements:
 ########		- A Box developer's account for your institution
