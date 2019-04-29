@@ -70,6 +70,10 @@ Use the Box API to manage files in Box
    - target Box folderID, to which the user created in connectToBox-GetLogin.py has been added as an editor or collaborator.  Add user by email.
    - Target folder ID is the end of the URL when you are inside that folder in the Box interface
 
+**CRON and shell script:**
+
+- I've provided an example of a shell script you can wrap the (second) Python script in, so this can be invoked with a CRON job, although this setup is beyond the scope of this document.
+
    **Output:**
 
    - input file writes to specified Box directory
