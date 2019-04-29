@@ -34,8 +34,10 @@ Use the Box API to manage files in Box
 
   **Command:**
 
+  - **Before** you run this the first time, you can install the requirements by running the following pip command:
+    - pip install –r requirements.txt
   - 1st argument to command is the location of the JSON config file from the Box app.  You would have downloaded this from the Box dev console within your app
-  - e.g. &quot;python connectToBox-GetLogin.py \<config/config.json\>
+    - python connectToBox-GetLogin.py \<config/config.json\>
 
   **Output:**
 
@@ -55,7 +57,7 @@ Use the Box API to manage files in Box
 
    - 1st argument to command:  file you want to send to Box, with relative path
    - 2nd argument to command:  path of config file containing public and private key
-   - e.g. &quot;python sendLogs.py input/input.out config/config.json&quot;
+   - python sendLogs.py input/input.out config/config.json
 
    **Requirements:**
 
