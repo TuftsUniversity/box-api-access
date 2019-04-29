@@ -35,7 +35,7 @@ Use the Box API to manage files in Box
   **Command:**
 
   - 1st argument to command is the location of the JSON config file from the Box app.  You would have downloaded this from the Box dev console within your app
-  - e.g. &quot;python connectToBox-GetLogin.py \\&lt;config/config.json\\&gt;
+  - e.g. &quot;python connectToBox-GetLogin.py \<config/config.json\>
 
   **Output:**
 
