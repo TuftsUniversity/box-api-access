@@ -32,7 +32,7 @@ Use the Box API to manage files in Box
 
   - add a username for the Box Dev app user.  This can be the same as the app name from the Box dev console
 
-  **To Run:**
+  **Command:**
 
   - **Before** you run this the first time, you can install the requirements by running the following pip command:
     - pip install –r requirements.txt
