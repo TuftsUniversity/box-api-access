@@ -4,6 +4,10 @@
 ########        Title:   	Connect to Box - Get login
 ########		Author:		Henry Steele - Library Technology Services - Tufts University
 ########		Date:		February 2019
+########    
+########    This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. 
+########    To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/ 
+########    or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 ########
 ########	Purpose:
 ########		Connect to the Box API using previsouly defined public and
@@ -14,7 +18,7 @@
 ########
 ########    Input:
 ########        - argument to command:  path of config file containing public and private key
- ######## 			+ e.g. "python connectToBox-GetLogin.py config/config.json"
+######## 			+ e.g. "python connectToBox-GetLogin.py config/config.json"
 ########
 ########	Requirements:
 ########		- A Box developer's account for your institution
