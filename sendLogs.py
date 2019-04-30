@@ -6,7 +6,7 @@
 ########		Date:		February 2019
 ########
 ########	Purpose:
-########		Connect to Box through a Box developers app and write to a target
+########	Connect to Box through a Box developers app and write to a target
 ########        directory on behalf of the previsouly created Box dev app user
 ########
 ########
